@@ -1,0 +1,11 @@
+prefix=/home/pdfium
+libdir=/home/pdfium/lib
+includedir=/home/pdfium/include
+
+Name: PDFium
+Description: PDFium
+Version: 5431
+Requires:
+
+Libs: -L${libdir} -lpdfium
+Cflags: -I${includedir}

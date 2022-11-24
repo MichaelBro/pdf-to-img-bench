@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: bench-app
+    tty: true
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./files:/home/files
+      - ./bench:/home/bench
