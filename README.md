@@ -1,8 +1,8 @@
 # Benchmark pdf to img
 ## used libs
-* pdfbox sfomuseum/go-pdfbox
-* mupdf gen2brain/go-fitz
-* pdfium klippa-app/go-pdfium
+* pdfbox (java) sfomuseum/go-pdfbox
+* mupdf (c lib) gen2brain/go-fitz
+* pdfium (c lib) klippa-app/go-pdfium
 
 ### easy use
 
